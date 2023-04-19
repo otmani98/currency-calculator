@@ -33,7 +33,7 @@ body {
     width: 1170px;
   }
 }
-h2 {
+h1 {
   font-size: 50px;
   margin: 15px auto;
   text-align: center;
@@ -115,7 +115,7 @@ button:last-of-type {
 }
 
 @media (max-width: 769px) {
-  .h2 {
+  .h1 {
     width: 30px;
   }
   button {
