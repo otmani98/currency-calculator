@@ -4,10 +4,12 @@ form.onsubmit = function (e) {
   e.preventDefault();
 };
 
-//https://api.currencyfreaks.com/v2.0/rates/latest?apikey=28ee693e0ead4cb38bd17f60ee4426a2
+//
 // Function to Get data from API
 async function getData() {
-  const data = fetch("./curr.json");
+  const data = fetch(
+    "https://api.currencyfreaks.com/v2.0/rates/latest?apikey=28ee693e0ead4cb38bd17f60ee4426a2"
+  );
   return data;
 }
 
